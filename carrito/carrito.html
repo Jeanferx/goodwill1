@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="caarrito.css">
+    <title>Carrito de Compras</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="https://ventasonlinexd6.wordpress.com/wp-content/uploads/2025/02/goodwill-1.png" alt="Logo">
+        </div>
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="/nosotros/nosotros.html">Nosotros</a>
+            <a href="/contactenos/contatenos.html">Contáctenos</a>
+            <a href="/servicio/servcios.html">Planes/Servicios</a>
+        </nav>
+    </header>
+
+    <div class="page-title">
+        Tu Carrito de Compras
+    </div>
+
+    <div class="cart-container">
+        <div id="cart-items" class="cart-items"></div>
+
+        <!-- Total y valor unitario -->
+        <div id="cart-summary" class="cart-summary">
+            <p>Total: $<span id="total-price">0.00</span></p>
+            <div id="subtotal-container"></div> <!-- Aquí se agregará el subtotal -->
+        </div>
+        
+    </div>
+<!-- Contenedor para el botón de Confirmar Compra -->
+<div class="confirmar-compra-container">
+    <button id="confirmar-compra" class="btn btn-primary">Confirmar Compra</button>
+</div>
+
+    <script src="carrito.js"></script>
+</body>
+</html>

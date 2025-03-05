@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactenos.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="https://ventasonlinexd6.wordpress.com/wp-content/uploads/2025/02/goodwill-1.png" alt="Logo">
+        </div>
+        <nav class="menu">
+            <a href="index.html" class="active">Inicio</a>
+            <a href="/nosotros/nosotros.html">Nosotros</a>
+            <a href="contatenos.html">Contáctenos</a>
+            <a href="/servicio/servcios.html">Planes/Servicios</a>
+        </nav>
+    </header>
+
+    <section class="contact-container">
+        <!-- Sección de Contacto a la Izquierda -->
+        <div class="contact-section">
+            <h2>Contáctenos</h2>
+            <p>Si tienes alguna pregunta o comentario, por favor, completa el siguiente formulario y nos pondremos en contacto contigo lo antes posible.</p>
+            
+            <form action="conect.php" method="POST">
+                <input type="text" name="nombre" placeholder="Tu nombre" required>
+                <input type="email" name="email" placeholder="Tu correo electrónico" required>
+                <textarea name="mensaje" placeholder="Tu mensaje" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+        <!-- Cuadro de Instagram a la Derecha -->
+        <div class="instagram-box">
+            <a href="https://www.instagram.com/goodwill_ec/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+            </a>
+        </div>
+    </section>
+    <footer class="footer">
+        <a href="https://wa.me/1234567890" target="_blank" class="whatsapp-icon">
+            <img src="/imagenes/whats.png" alt="WhatsApp">
+        </a>
+    </footer>
+    
+    
+    
+</body>
+</html>

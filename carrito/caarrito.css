@@ -1,0 +1,146 @@
+/* Estilos generales del carrito */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header .logo img {
+    width: 100px;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+.page-title {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    padding: 10px;
+}
+
+/* Contenedor principal del carrito */
+.cart-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Contenedor de los servicios */
+.cart-items {
+    flex: 2;
+    max-width: 70%;
+}
+
+/* Estilo de cada ítem del carrito */
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 0.9em;
+}
+
+/* Estilo para el nombre del servicio */
+.cart-item p {
+    flex-grow: 1;
+    font-size: 1em;
+}
+
+/* Contenedor para las cantidades */
+.quantity-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Estilo de los botones */
+.cart-item button {
+    padding: 5px 10px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/* Estilo del botón de eliminar */
+.cart-item .remove-service {
+    background-color: #ff4747;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.cart-item .remove-service:hover {
+    background-color: #d33d3d;
+}
+
+/* Estilo del resumen del carrito (total) */
+.cart-summary {
+    flex: 1;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1.2em;
+    text-align: center;
+    min-width: 200px;
+}
+
+.cart-summary p {
+    font-weight: bold;
+}
+/* Contenedor para el botón de Confirmar Compra */
+.confirmar-compra-container {
+    text-align: center;  /* Centra el botón horizontalmente */
+    margin-top: 30px;     /* Espacio superior para que no quede pegado a otros elementos */
+    position: fixed;      /* Lo posicionamos de forma fija */
+    bottom: 20px;         /* Lo ubicamos a 20px desde el borde inferior */
+    left: 50%;            /* Lo centramos horizontalmente */
+    transform: translateX(-50%);  /* Asegura que el botón esté exactamente centrado */
+}
+
+/* Estilos del botón */
+#confirmar-compra {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;  /* Color verde */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto al pasar el mouse por encima */
+#confirmar-compra:hover {
+    background-color: #45a049;
+}

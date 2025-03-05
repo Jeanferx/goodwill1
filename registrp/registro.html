@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <title>Registro</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h2>Registro</h2>
+        <form action="registro.php">
+            <div class="input-field">
+                <input type="text" id="nombre" placeholder="Nombre completo" required>
+                <i class="bx bxs-user"></i>
+            </div>
+            <div class="input-field">
+                <input type="email" id="email" placeholder="Email" required>
+                <i class="bx bxs-envelope"></i>
+            </div>
+            <div class="input-field">
+                <input type="password" id="password" placeholder="Contraseña" required>
+                <i class="bx bxs-lock-alt"></i>
+            </div>
+            <div class="input-field">
+                <input type="password" id="confirm-password" placeholder="Confirmar contraseña" required>
+                <i class="bx bxs-lock"></i>
+            </div>
+            <button type="submit" class="register">Registrarse</button>
+            <p>¿Ya tienes una cuenta? <a href="/inicio/incio.html" class="sign-in">Iniciar sesión</a></p>
+        </form>
+    </div>
+</body>
+
+</html>
