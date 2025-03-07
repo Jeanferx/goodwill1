@@ -1,0 +1,77 @@
+<header class="header">
+    <div class="logo">
+        <img src="https://ventasonlinexd6.wordpress.com/wp-content/uploads/2025/02/goodwill-1.png" alt="Logo">
+    </div>
+    
+    <nav class="nav-links">
+        <a href="https://miwebpress.click/wordpress/" class="active">Inicio</a>
+        <a href="https://staging-j.miwebpress.click/nosotros/">Nosotros</a>
+        <a href="https://miwebpress.click/servicio/">Servicios</a>
+        <a href="https://miwebpress.click/contacto/">Contáctenos</a>
+    </nav>
+    
+    <div class="icons">
+    <!-- Carrito -->
+    <a href="https://miwebpress.click/carrito/">
+        <img src="https://ventasonlinexd6.wordpress.com/wp-content/uploads/2025/02/carrito-1.png" alt="Carrito">
+    </a>
+    
+    <!-- Usuario -->
+    <a href="https://miwebpress.click/inicio/">
+        <img src="https://ventasonlinexd6.wordpress.com/wp-content/uploads/2025/02/usuario.png" alt="Usuario">
+    </a>
+</div>
+</header>
+
+<div class="gif-container">
+    <img src="https://ventasonlinexd6.wordpress.com/wp-content/uploads/2025/02/white-modern-quote-videos.gif" alt="GIF Animado">
+    <div class="text-container">
+        <a href="#">Ver Más</a>
+    </div>
+</div>
+
+<div class="info-section">
+    <h2>Confianza y bienestar personal</h2>
+    <p>Nos dedicamos a proporcionarte las herramientas que necesitas para sentirte seguro y protegido en cada etapa de tu vida. A través de una atención cercana y soluciones innovadoras, te acompañamos para que disfrutes cada instante sin inquietudes.</p>
+</div>
+
+<div class="content">
+    <div class="service-box" id="service-box-1">
+        <h3>Servicios que ofrecemos</h3>
+        <p>Ofrecemos una amplia gama de servicios para tu bienestar personal.</p>
+    </div>
+    <div class="service-box" id="service-box-2">
+        <h3>Opciones de servicios</h3>
+        <p>Elige entre nuestros servicios para satisfacer tus necesidades específicas.</p>
+    </div>
+</div>
+
+<div class="contact-section">
+    <div class="contact-info">
+        <h3>Ubicación</h3>
+        <p>Visítanos en nuestra tienda en el centro de la ciudad. Estamos abiertos de lunes a viernes, de 9:00 a 18:00 horas.</p>
+        <p>Dirección: Calle Ejemplo 123, Ciudad, País.</p>
+    </div>
+
+    <div class="contact-form">
+        <h3>Contáctenos</h3>
+        <label for="name">Nombre y Apellido</label>
+        <input type="text" id="name" placeholder="Escribe tu nombre y apellido">
+        
+        <label for="phone">Teléfono</label>
+        <input type="tel" id="phone" placeholder="Escribe tu teléfono">
+        
+        <label for="email">Correo</label>
+        <input type="email" id="email" placeholder="Escribe tu correo electrónico">
+        
+        <label for="message">Mensaje</label>
+        <textarea id="message" placeholder="Escribe tu mensaje"></textarea>
+        
+        <a href="#" class="form-button">Enviar</a>
+    </div>
+<footer class="footer">
+        <a href="https://wa.me/1234567890" target="_blank" class="whatsapp-icon">
+            <img src="https://miwebpress.click/servicio/wp-content/uploads/2025/03/whats.png" alt="WhatsApp">
+        </a>
+    </footer>
+</div>
