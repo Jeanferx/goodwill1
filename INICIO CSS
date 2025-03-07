@@ -1,0 +1,244 @@
+/* Cabecera */
+.header {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+}
+
+/* LOGO */
+.logo img {
+    width: 180px;
+    height: auto;
+}
+
+/* MENÚ */
+.nav-links {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ffdd57;
+    transform: translateY(-2px);
+}
+
+.nav-links a.active::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #ffdd57;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+
+/* Íconos */
+.icons {
+    display: flex;
+    gap: 20px;
+}
+
+.icons img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* GIF y botón */
+.gif-container {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gif-container img {
+    width: 100%;
+    height: auto;
+}
+
+.text-container {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.text-container a {
+    display: inline-block;
+    padding: 12px 40px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px;
+    animation: moveButton 0.6s ease-in-out infinite;
+}
+
+/* Información */
+.info-section {
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.info-section h2 {
+    font-size: 28px;
+}
+
+.info-section p {
+    font-size: 16px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Servicios */
+.content {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.service-box {
+    width: 100%;
+    max-width: 500px;
+    background-color: #ffdd57;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Contacto */
+.contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    justify-content: center;
+}
+
+.contact-info, .contact-form {
+    width: 100%;
+    max-width: 500px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Footer */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* Estilo para el logo de WhatsApp dentro del footer */
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.whatsapp-icon img {
+    width: 50px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-icon img:hover {
+    transform: scale(1.1);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links a {
+        font-size: 16px;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .service-box {
+        width: 100%;
+    }
+
+    .contact-section {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    .text-container a {
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+}
+.form-button {
+    display: inline-block;
+    padding: 12px 40px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px;
+    animation: moveButton 0.6s ease-in-out infinite;
+    text-align: center;
+}
