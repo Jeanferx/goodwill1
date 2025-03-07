@@ -1,0 +1,324 @@
+/* Fondo para toda la página */
+body {
+    background-color: #f4f4f4; /* Color de fondo */
+    background-image: url('https://miwebpress.click/contacto/wp-content/uploads/2025/03/Blue-Animated-Thank-You-Video.gif'); /* Fondo con imagen */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white; /* Color de texto blanco para todo el contenido */
+    padding-top: 20px; /* Reducir margen superior */
+}
+/* Contenedor de los íconos en la cabecera */
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Estilos para los íconos de usuario y carrito */
+.header-icons a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.header-icons img {
+    width: 30px; /* Tamaño del ícono */
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.header-icons a:hover img {
+    transform: scale(1.1); /* Efecto al pasar el ratón */
+}
+
+/* Estilos para los íconos de usuario y carrito */
+.icons {
+    display: flex;
+    gap: 20px; /* Separación entre los íconos */
+}
+
+.icons a {
+    display: inline-block;
+    text-decoration: none;
+    transition: transform 0.3s ease; /* Transición suave al pasar el ratón */
+}
+
+.icons img {
+    width: 40px; /* Ajusta el tamaño del ícono */
+    height: auto;
+    transition: transform 0.3s ease; /* Transición para el efecto hover */
+}
+
+.icons a:hover img {
+    transform: scale(1.2); /* Aumenta el tamaño del ícono al pasar el ratón */
+}
+
+/* Cabecera */
+.header {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade sombra para un estilo más limpio */
+}
+
+
+/* LOGO */
+.logo img {
+     width: 200px;
+    height: 100px;
+}
+
+/* MENÚ */
+
+/* MENÚ */
+.menu {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 30px;
+    padding: 10px 0;
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
+}
+
+/* Estilo de los enlaces del menú */
+.menu a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600; /* Igual al estilo de la segunda sección */
+    position: relative;
+    transition: all 0.3s ease;
+    text-align: center; /* Asegura que el texto esté centrado */
+}
+
+/* Hover de los enlaces del menú */
+.menu a:hover {
+    color: #ffdd57;
+    transform: translateY(-2px);
+}
+
+/* Estilo para la línea debajo del botón activo */
+.menu a.active::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #ffdd57;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+
+.page-title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 150px 100px; /* Aumenté el padding para mayor altura */
+    background-image: url('https://miwebpress.click/servicio/wp-content/uploads/2025/03/fondoo.png'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    opacity: 0; /* Comienza invisible */
+    transform: translateX(-100%); /* Comienza desde la izquierda */
+    animation: slideIn 1s forwards; /* Llama a la animación */
+}
+
+/* Sección de Contacto */
+.contact-section {
+    background-color: #d1d1d1;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; /* Reducido el margen superior para subir la sección */
+    max-width: 800px;
+    color: white; /* Texto blanco en la sección de contacto */
+}
+
+/* Formulario de Contacto */
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Estilos de campos de texto */
+.contact-section input, .contact-section textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: border 0.3s ease;
+}
+
+.contact-section input:focus, .contact-section textarea:focus {
+    border-color: #ffdd57;
+    outline: none;
+}
+
+/* Botón de Enviar */
+.contact-section button {
+    padding: 15px 30px;
+    background-color: #ffdd57;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-section button:hover {
+    background-color: #e6c247;
+    transform: translateY(-3px);
+}
+
+/* Medios de comunicación */
+@media screen and (max-width: 1024px) {
+    .menu {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .logo img {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .menu a {
+        font-size: 16px;
+    }
+
+    .contact-section h2 {
+        font-size: 2em;
+    }
+
+    .contact-section input, .contact-section textarea {
+        padding: 12px;
+    }
+
+    .contact-section button {
+        padding: 12px 25px;
+        font-size: 1em;
+    }
+}
+
+/* Contenedor principal */
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 10px auto; /* Reducido el margen superior para subir todo */
+}
+
+/* Sección de Contacto (Izquierda) */
+.contact-section {
+    background-color: #0c000000; /* Fondo claro o puedes poner una imagen aquí */
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; /* Reducido el margen superior */
+    max-width: 800px;
+  
+    background-size: cover;
+    background-position: center;
+    color: white; /* Asegura que el texto de esta sección también sea blanco */
+}
+
+/* Cuadro de Instagram (Derecha) */
+.instagram-box {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f500; /* Fondo claro para el cuadro */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: url('https://www.example.com/instagram-background.jpg'); /* Fondo con imagen */
+    background-size: cover;
+    background-position: center;
+}
+
+.instagram-box img {
+    width: 75px;
+    height: 75px;
+    transition: transform 0.3s ease;
+}
+
+.instagram-box img:hover {
+    transform: scale(1.1);
+}
+/* Pie de página */
+
+/* Pie de página fijo */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* Estilo para el logo de WhatsApp dentro del footer */
+.whatsapp-icon img {
+    width: 50px; 
+    height: auto;
+    transition: transform 0.3s ease;
+}
+.whatsapp-icon {
+    margin-left: auto; /* Empuja el ícono más a la izquierda */
+    padding-right: 30px; /* Ajusta la distancia desde el borde izquierdo */
+}
+
+.whatsapp-icon img:hover {
+    transform: scale(1.1);
+}
+
+/* Responsivo */
+@media screen and (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px; /* Subir en pantallas pequeñas */
+    }
+
+    .contact-section, .instagram-box {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+}
