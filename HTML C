@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nosotros.css">
+    <title>Sobre Nosotros</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="https://ventasonlinexd6.wordpress.com/wp-content/uploads/2025/02/goodwill-1.png" alt="Logo">
+        </div>
+        
+        <nav class="nav-links">
+            <div class="nav-links">
+    <a href="https://miwebpress.click/wordpress/">Inicio</a>
+    <a href="#nosotros" class="nosotros active">Nosotros</a> <!-- Aquí le asignas active -->
+    <a href="https://miwebpress.click/servicio/">Servicios</a>
+    <a href="https://miwebpress.click/contacto/">Contáctenos</a>
+</div>
+        </nav>
+        
+        <div class="icons">
+    <!-- Carrito -->
+    <a href="https://miwebpress.click/carrito/">
+        <img src="https://ventasonlinexd6.wordpress.com/wp-content/uploads/2025/02/carrito-1.png" alt="Carrito">
+    </a>
+    
+    <!-- Usuario -->
+    <a href="https://miwebpress.click/inicio/">
+        <img src="https://ventasonlinexd6.wordpress.com/wp-content/uploads/2025/02/usuario.png" alt="Usuario">
+    </a>
+</div>
+    </header>
+<!-- Sección de Sobre Nosotros -->
+<section class="content-section">
+    <div class="about-us">
+        <h2>Sobre Nosotros:</h2>
+        <p>Somos una organización dedicada a ofrecer soluciones innovadoras en tecnología y servicios enfocados en el bienestar y desarrollo de las comunidades. Con un firme compromiso con la calidad y la sostenibilidad, nuestro enfoque está centrado en mejorar la vida de las personas y promover el progreso social.</p>
+        <ul>
+            <li><strong>Visión:</strong> Transformar el futuro a través de la tecnología y el compromiso social.</li>
+            <li><strong>Misión:</strong> Proveer servicios y soluciones tecnológicas que contribuyan a mejorar la calidad de vida de las comunidades en situación de vulnerabilidad.</li>
+            <li><strong>Áreas de trabajo:</strong> Innovación social, desarrollo de proyectos comunitarios, soluciones tecnológicas accesibles.</li>
+            <li><strong>Valores:</strong> Compromiso, honestidad, responsabilidad social y sostenibilidad.</li>
+        </ul>
+    </div>
+    <div class="about-us">
+        <img src="https://staging-j.miwebpress.click/nosotros/wp-content/uploads/2025/02/Video-para-Facebook-Adopcion-Minimalista-Blanco-1.gif" alt="Imagen de Goodwill">
+    </div>
+</section>
+
+<!-- Sección de Términos y Condiciones -->
+<section class="terms-section">
+    <div class="terms-container">
+        <img src="https://staging-j.miwebpress.click/nosotros/wp-content/uploads/2025/02/hoja.jpg" alt="Términos y Condiciones" class="terms-image">
+        <a href="#terminos" class="terms-link">Términos y Condiciones</a>
+        <p class="terms-description">Al contratar nuestros servicios, usted acepta que ofrecemos organización de ceremonias, traslado de restos mortales y trámites legales. Se requiere presentar el certificado de defunción y la identificación del fallecido. Los precios y pagos se detallan en el contrato. Las cancelaciones con menos de 24 horas no son reembolsables. No nos hacemos responsables por eventos fuera de nuestro control. Los cambios en los servicios deben ser acordados por escrito. Al contratar, acepta estos términos.</p>
+    </div>
+</section>
+
+
+    <footer class="footer">
+        <a href="https://wa.me/1234567890" target="_blank" class="whatsapp-icon">
+            <img src="https://staging-j.miwebpress.click/nosotros/wp-content/uploads/2025/03/whats.png" alt="WhatsApp">
+        </a>
+    </footer>
+</body>
+</html>
